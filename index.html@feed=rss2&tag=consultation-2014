@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>consultation 2014 &#8211; GECEAO</title>
+	<atom:link href="http://ocharowca.info/geceao/?feed=rss2&#038;tag=consultation-2014&#038;lang=en" rel="self" type="application/rss+xml" />
+	<link>http://ocharowca.info/geceao</link>
+	<description>Regional Committee for Disaster Management in West Africa</description>
+	<lastBuildDate>Fri, 21 Apr 2017 08:49:37 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.3</generator>
+	<item>
+		<title>Consultation 2014</title>
+		<link>http://ocharowca.info/geceao/?p=1&#038;lang=en</link>
+		<comments>http://ocharowca.info/geceao/?p=1&#038;lang=en#respond</comments>
+		<pubDate>Tue, 10 May 2016 03:48:21 +0000</pubDate>
+		<dc:creator><![CDATA[Admin]]></dc:creator>
+				<category><![CDATA[Consultations]]></category>
+		<category><![CDATA[consultation 2014]]></category>
+		<category><![CDATA[GECEAO]]></category>
+
+		<guid isPermaLink="false">http://ocharowca.info/geceao/?p=1</guid>
+		<description><![CDATA[The West African States held on 3-6 June in Ouagadougou the eighth Regional Consultation aiming at strengthening preparedness and response capacities to disasters and emergencies of the Economic Community of West African States (ECOWAS) Member-states and Mauritania. This year for the first time, the African Union (AU) Commission participated in &#8230;]]></description>
+				<content:encoded><![CDATA[<p>The West African States held on 3-6 June in Ouagadougou the eighth Regional Consultation aiming at strengthening preparedness and response capacities to disasters and emergencies of the Economic Community of West African States (ECOWAS) Member-states and Mauritania.</p>
+<p>This year for the first time, the African Union (AU) Commission participated in the regional consultation and invited a number of countries from other regions including Burundi, Ethiopia, Mozambique, Kenya and South Africa. Participants discussed and reviewed a proposal for establishing an Africa Disaster Managers Platform (ADMAP).</p>
+<p>During the four-day conference, civil protection, disaster management authorities and National Red Cross and Red Crescent Societies examined the major risks associated with the upcoming rainy season based upon the seasonal forecast introduced by ACMAD. They also reflected on lessons learnt from the recent deployment of the ECOWAS Emergency Response Team to Mali and from the ongoing Ebola outbreak. A whole day was also dedicated to pre-consultations on the World Humanitarian Summit scheduled for 2016.<br />
+Participants were also invited to visit the regional Institute for Civil protection studies (ISEPC) which is currently expanding its training capacity and its coverage in Africa.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ocharowca.info/geceao/?feed=rss2&#038;p=1</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
