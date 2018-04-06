@@ -198,7 +198,7 @@ img.emoji {
 			<div class="entry-content"  itemprop="text">
 				
 				<script>
-					var url = "https://api.reliefweb.int/v1/reports?appname=geceao.org&filter[operator]=AND&filter[conditions][0][field]=format&filter[conditions][0][value][]=appeal&filter[conditions][0][value][]=Analysis&filter[conditions][0][operator]=OR&preset=latest&filter[conditions][1][field]=title&filter[conditions][1][value][]=Humanitarian Response Plan&filter[conditions][1][value][]=Humanitarian Needs and Requirements&filter[conditions][1][value][]=Humanitarian Needs and Requirement Overview&filter[conditions][1][value][]=Plan de travail humanitaire&filter[conditions][1][operator]=OR&filter[conditions][2][field]=country.iso3&filter[conditions][2][value][]=BEN&filter[conditions][2][value][]=BFA&filter[conditions][2][value][]=CPV&filter[conditions][2][value][]=CIV&filter[conditions][2][value][]=GMB&filter[conditions][2][value][]=GNA&filter[conditions][2][value][]=GNB&filter[conditions][2][value][]=LBR&filter[conditions][2][value][]=MLI&filter[conditions][2][value][]=NER&filter[conditions][2][value][]=NGA&filter[conditions][2][value][]=SEN&filter[conditions][2][value][]=SLE&filter[conditions][2][value][]=TGO&filter[conditions][2][operator]=OR&filter[conditions][3][field]=source.shortname&filter[conditions][3][value][]=OCHA&filter[conditions][3][value][]=UN RC Senegal&filter[conditions][3][operator]=OR";
+					var url = "https://api.reliefweb.int/v1/reports?appname=geceao.org&limit=20&filter[operator]=AND&filter[conditions][0][field]=format&filter[conditions][0][value][]=appeal&filter[conditions][0][value][]=Analysis&filter[conditions][0][operator]=OR&preset=latest&filter[conditions][1][field]=title&filter[conditions][1][value][]=Humanitarian Response Plan&filter[conditions][1][value][]=Humanitarian Needs and Requirements&filter[conditions][1][value][]=Humanitarian Needs and Requirement Overview&filter[conditions][1][value][]=Plan de travail humanitaire&filter[conditions][1][value][]=Plan de Réponse Humanitaire &filter[conditions][1][operator]=OR&filter[conditions][2][field]=country.iso3&filter[conditions][2][value][]=BEN&filter[conditions][2][value][]=BFA&filter[conditions][2][value][]=CPV&filter[conditions][2][value][]=CIV&filter[conditions][2][value][]=GMB&filter[conditions][2][value][]=GNA&filter[conditions][2][value][]=GNB&filter[conditions][2][value][]=LBR&filter[conditions][2][value][]=MLI&filter[conditions][2][value][]=NER&filter[conditions][2][value][]=NGA&filter[conditions][2][value][]=SEN&filter[conditions][2][value][]=SLE&filter[conditions][2][value][]=TGO&filter[conditions][2][operator]=OR&filter[conditions][3][field]=source.shortname&filter[conditions][3][value][]=OCHA&filter[conditions][3][value][]=UN RC Senegal&filter[conditions][3][operator]=OR";
 					$.get({
 						url: url,
 						success: function(response) {
@@ -227,12 +227,14 @@ img.emoji {
 								var urld=element.fields.url;
 								var image=element.fields.file[0].preview['url-thumb'];
 								
-								if(title.search("Cameroon")==-1){
-									if((title.search("Sahel")==-1)&&(title.search("Lake Chad Basin")==-1)){
-										$("#countryProducts").append("<div class='regionalProduct'><a target='_blank' href='"+urld+"'><img  src='"+image+"'/><span>"+title+"</span></a></div>");
-									}else{
-										
-										$("#regionalProducts").append("<div class='regionalProduct'><a target='_blank' href='"+urld+"'><img  src='"+image+"'/><span>"+title+"</span></a></div>");
+								if((title.search("Cameroon")==-1)&&(title.search("Cameroun")==-1)&&(title.search("Tchad")==-1)){
+									if(title.search("2018")!=-1){
+										if((title.search("Sahel")==-1)&&(title.search("Lake Chad Basin")==-1)){
+											$("#countryProducts").append("<div class='regionalProduct'><a target='_blank' href='"+urld+"'><img  src='"+image+"'/><span>"+title+"</span></a></div>");
+										}else{
+											
+											$("#regionalProducts").append("<div class='regionalProduct'><a target='_blank' href='"+urld+"'><img  src='"+image+"'/><span>"+title+"</span></a></div>");
+										}
 									}
 								}
 								
