@@ -1,0 +1,31 @@
+.blocRessource{
+	background-color: #F9F9F9;
+    padding: 7px;
+    border: 1px solid #FFF;
+    -webkit-box-shadow: rgba(0,0,0,0.2) 1px 2px 2px;
+    box-shadow: rgba(0,0,0,0.2) 1px 2px 2px;
+    margin: 20px 0px;
+}
+
+.blocRessource ul li{
+	text-decoration:none;
+}
+
+.regionalProduct{
+	width: 100px;
+   display: inline-flex;
+    margin: 5px;
+    font-size: 12px;
+}
+
+.boxTitle{
+	    padding: .5em 1em;
+    background: rgba(0,133,178, 0.9);
+}
+
+.logoInform{
+	float: right;
+    right: 11px;
+    top: -43px;
+    position: relative;
+}
